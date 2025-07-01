@@ -2019,7 +2019,10 @@
             "Woodworking": "Woodworking"
         },
         "SpecificLore": {
-            "Herbalism": "Herbalism Lore"
+            "Architecture": "Architecture Lore",
+            "Demon": "Demon Lore",
+            "Herbalism": "Herbalism Lore",
+            "Warfare": "Warfare Lore"
         },
         "SpecificRule": {
             "Acrobat": {
@@ -2114,7 +2117,7 @@
                     "Bomber": {
                         "FieldBenefit": "When throwing an alchemical bomb with the splash trait, you can choose to deal splash damage to only your primary target instead of the usual splash area.",
                         "FieldVials": {
-                            "RollOptionLabel": "Versatile Vials Damage"
+                            "RollOptionLabel": "Field Vials — Alter Versatile Vials Damage"
                         },
                         "GreaterFieldDiscovery": "You can increase the splash on your bombs to damage creatures within 10 feet, or 15 feet if you have Expanded Splash."
                     },
@@ -3301,6 +3304,20 @@
                     "BracersOfArmor": "Scaly Hide w/ Bracers of Armor",
                     "ExplorersClothing": "Scaly Hide w/ Explorer's Clothing",
                     "MageArmor": "Scaly Hide w/ Mage Armor"
+                }
+            },
+            "DragonForm": {
+                "DragonBreath": {
+                    "cone": { 
+                        "fortitude": "You exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] damage to each creature in the area with a @Check[fortitude|basic|options:area-effect] against your spell DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
+                        "reflex": "You exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] damage to each creature in the area with a @Check[reflex|basic|options:area-effect] against your spell DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
+                        "will": "You exhale deadly magical energy in a @Template[type:cone|distance:30], dealing @Damage[10d6|options:area-damage] damage to each creature in the area with a @Check[will|basic|options:area-effect] against your spell DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}."
+                    },
+                    "line": { 
+                        "fortitude": "You exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] damage to each creature in the area with a @Check[fortitude|basic|options:area-effect] against your spell DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
+                        "reflex": "You exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] damage to each creature in the area with a @Check[reflex|basic|options:area-effect] against your spell DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}.",
+                        "will": "You exhale deadly magical energy in a @Template[type:line|distance:100], dealing @Damage[10d6|options:area-damage] damage to each creature in the area with a @Check[will|basic|options:area-effect] against your spell DC. Once activated, Dragon Breath can't be used again for [[/r 1d4 #Recharge Dragon Breath]]{1d4 rounds}."
+                    }
                 }
             },
             "Driving": "Driving",
